@@ -2,7 +2,7 @@ name: Scheduled
 on:
   schedule:
     # Once every day
-    - cron:  '0 20 * * *'
+    - cron:  '0 0 * * *'
 jobs:
   delete:
     runs-on: ubuntu-latest
